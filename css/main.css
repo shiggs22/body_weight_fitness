@@ -42,11 +42,13 @@ a:active{
 
 ul li{
 	display: inline;
+	float: right;
+	width: 80px;
+	margin: 5px;
 }
 
 .workout_list{
 	background-color: #999;
-	opacity: 20%;
 	border: 3px solid #333;
 	-moz-box-shadow: 5px 5px 5px #666;
 	-webkit-box-shadow: 5px 5px 5px #666;
@@ -58,5 +60,6 @@ ul li{
 	background-color: #666;
 	border: 3px solid #333;
 	border-radius: 10px;
+	clear: left;
 }
 
