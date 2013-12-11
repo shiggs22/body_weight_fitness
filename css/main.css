@@ -1,0 +1,62 @@
+body{
+	width: 790px;
+	margin: 0 auto;
+}
+
+h1, h2, h3{
+	font-family: "true lies", arial;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #111; 
+	text-indent: 10px;
+}
+
+p, ol, ul{
+	font-family: "pt sans", arial;
+	font-weight: normal;
+}
+
+p{
+	text-indent: 35px;
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link{
+	color: #ff28bc;
+}
+
+a:visited{
+	color: #bcbcbc;
+}
+
+a:hover{
+	color: #0d7cff;
+}
+
+a:active{
+	color: #9112ff;
+}
+
+ul li{
+	display: inline;
+}
+
+.workout_list{
+	background-color: #999;
+	opacity: 20%;
+	border: 3px solid #333;
+	-moz-box-shadow: 5px 5px 5px #666;
+	-webkit-box-shadow: 5px 5px 5px #666;
+	box-shadow: 5px 5px 5px #666;
+	padding-top: 5px;
+}
+
+.top_nav{
+	background-color: #666;
+	border: 3px solid #333;
+	border-radius: 10px;
+}
+
