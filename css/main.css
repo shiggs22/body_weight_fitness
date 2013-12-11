@@ -1,6 +1,7 @@
 body{
 	width: 790px;
 	margin: 0 auto;
+	background-image: url("../images/metal_bar.jpg");
 }
 
 h1, h2, h3{
@@ -17,6 +18,7 @@ p, ol, ul{
 
 p{
 	text-indent: 35px;
+	
 	
 }
 
@@ -61,5 +63,9 @@ ul li{
 	border: 3px solid #333;
 	border-radius: 10px;
 	clear: left;
+}
+
+.workout_images{
+	list-style-type: none;
 }
 
